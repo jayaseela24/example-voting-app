@@ -39,7 +39,7 @@ services:
       restart_policy:
         condition: on-failure
   result:
-    image: sreeharshav/example-voting-app_result:result
+    image: sreeharshav/example-voting-app_result:latest
     ports:
       - 5001:80
     networks:
